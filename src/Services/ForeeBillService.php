@@ -75,7 +75,7 @@ class ForeeBillService
 
             if ($res->ok()) {
                 $data = $res->responseData;
-                $bill->foree_reference_number = $data['reference_number'] ?? $bill->foree_reference_number;
+                $bill->foree_reference_number = $data['reference_number'] ?? $data['PSID'] ?? $bill->foree_reference_number;
                 $bill->payment_link           = $data['payment_link']     ?? $bill->payment_link;
                 $bill->qr                     = $data['qr']               ?? $bill->qr;
                 $bill->bill_status            = $data['bill_status']       ?? $bill->bill_status;
