@@ -1,12 +1,12 @@
 {
-    "name": "yourvendor/foree-laravel",
+    "name": "abdulbaqi-smart/smartlane-foree-laravel",
     "description": "Laravel package for Foree Bill Payment Gateway (foreebill.com)",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "you@example.com"
+            "name": "Smartlane",
+            "email": "support@smartlane.pk"
         }
     ],
     "require": {
@@ -22,21 +22,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Yourvendor\\Foree\\": "src/"
+            "abdulbaqi-smart\\Foree\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yourvendor\\Foree\\Tests\\": "tests/"
+            "abdulbaqi-smart\\Foree\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Yourvendor\\Foree\\ForeeServiceProvider"
+                "abdulbaqi-smart\\Foree\\ForeeServiceProvider"
             ],
             "aliases": {
-                "Foree": "Yourvendor\\Foree\\Facades\\Foree"
+                "Foree": "abdulbaqi-smart\\Foree\\Facades\\Foree"
             }
         }
     },
