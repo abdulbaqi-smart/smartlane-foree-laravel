@@ -1,5 +1,4 @@
-# smartlane-foree-laravel
-# Foree Laravel Package
+# Smartlane-Foree Laravel Package
 
 A proper Composer package for the [Foree](https://foree.co) Bill Payment Gateway.  
 Install once, use in **any Laravel project** — no copy-pasting files.
