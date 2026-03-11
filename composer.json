@@ -1,0 +1,45 @@
+{
+    "name": "yourvendor/foree-laravel",
+    "description": "Laravel package for Foree Bill Payment Gateway (foreebill.com)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "you@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/http": "^10.0|^11.0|^12.0",
+        "illuminate/database": "^10.0|^11.0|^12.0",
+        "illuminate/events": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yourvendor\\Foree\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yourvendor\\Foree\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yourvendor\\Foree\\ForeeServiceProvider"
+            ],
+            "aliases": {
+                "Foree": "Yourvendor\\Foree\\Facades\\Foree"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
