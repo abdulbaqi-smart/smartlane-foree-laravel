@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # smartlane-foree-laravel
-=======
 # Foree Laravel Package
 
 A proper Composer package for the [Foree](https://foree.co) Bill Payment Gateway.  
@@ -12,58 +10,28 @@ Install once, use in **any Laravel project** — no copy-pasting files.
 
 ### Option A — From GitHub (Recommended)
 
-Push this package folder to a GitHub repo (e.g. `github.com/smartlane/foree-laravel`), then in each Laravel project:
+Push this package folder to a GitHub repo (e.g. `github.com/abdulbaqi-smart/smartlane-foree-laravel`), then in each Laravel project:
 
 **1. Add repository to `composer.json`:**
 ```json
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/smartlane/foree-laravel"
+         "url": "https://github.com/abdulbaqi-smart/smartlane-foree-laravel"
     }
 ],
 "require": {
-    "smartlane/foree-laravel": "^1.0"
+    "abdulbaqi-smart/smartlane-foree-laravel": "dev-main",
 }
 ```
 
 **2. Install:**
 ```bash
-composer require smartlane/foree-laravel
+composer require abdulbaqi-smart/smartlane-foree-laravel
 ```
 
 ---
 
-### Option B — Local Path (During Development)
-
-If the package is on your local machine:
-
-```json
-"repositories": [
-    {
-        "type": "path",
-        "url": "../foree-laravel"
-    }
-],
-"require": {
-    "smartlane/foree-laravel": "*"
-}
-```
-```bash
-composer require smartlane/foree-laravel
-```
-
----
-
-### Option C — Packagist (Public)
-
-If you publish to [packagist.org](https://packagist.org), then simply:
-```bash
-composer require smartlane/foree-laravel
-```
-No repository entry needed.
-
----
 
 ## Setup (Do this in each project)
 
@@ -246,4 +214,3 @@ foree-laravel/
 ## Requirements
 - PHP 8.1+
 - Laravel 10, 11, or 12
->>>>>>> 37c1088 (Initial Foree Laravel package)
