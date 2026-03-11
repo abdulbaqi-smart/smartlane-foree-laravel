@@ -1,6 +1,6 @@
 <?php
 
-namespace abdulbaqi-smart\Foree\Http\Requests;
+namespace smartlane\Foree\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace abdulbaqi-smart\Foree\Models;
+namespace smartlane\Foree\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;

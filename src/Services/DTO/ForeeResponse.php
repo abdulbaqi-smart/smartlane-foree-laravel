@@ -1,6 +1,6 @@
 <?php
 
-namespace abdulbaqi-smart\Foree\Services\DTO;
+namespace smartlane\Foree\Services\DTO;
 
 class ForeeResponse
 {

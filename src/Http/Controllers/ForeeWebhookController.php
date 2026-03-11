@@ -1,16 +1,16 @@
 <?php
 
-namespace abdulbaqi-smart\Foree\Http\Controllers;
+namespace smartlane\Foree\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
-use abdulbaqi-smart\Foree\Events\ForeeBillPaid;
-use abdulbaqi-smart\Foree\Events\ForeeBillStatusUpdated;
-use abdulbaqi-smart\Foree\Http\Requests\ForeeWebhookRequest;
-use abdulbaqi-smart\Foree\Models\ForeeBill;
+use smartlane\Foree\Events\ForeeBillPaid;
+use smartlane\Foree\Events\ForeeBillStatusUpdated;
+use smartlane\Foree\Http\Requests\ForeeWebhookRequest;
+use smartlane\Foree\Models\ForeeBill;
 
 class ForeeWebhookController extends Controller
 {

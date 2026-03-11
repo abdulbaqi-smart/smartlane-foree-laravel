@@ -1,13 +1,13 @@
 <?php
 
-namespace abdulbaqi-smart\Foree\Services;
+namespace smartlane\Foree\Services;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use abdulbaqi-smart\Foree\Events\ForeeBillStatusUpdated;
-use abdulbaqi-smart\Foree\Models\ForeeBill;
-use abdulbaqi-smart\Foree\Services\DTO\CreateBillRequest;
+use smartlane\Foree\Events\ForeeBillStatusUpdated;
+use smartlane\Foree\Models\ForeeBill;
+use smartlane\Foree\Services\DTO\CreateBillRequest;
 
 class ForeeBillService
 {

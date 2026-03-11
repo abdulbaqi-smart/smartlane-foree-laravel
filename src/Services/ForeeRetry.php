@@ -1,6 +1,6 @@
 <?php
 
-namespace abdulbaqi-smart\Foree\Services;
+namespace smartlane\Foree\Services;
 
 use Closure;
 use Throwable;

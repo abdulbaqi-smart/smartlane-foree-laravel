@@ -22,21 +22,21 @@
     },
     "autoload": {
         "psr-4": {
-            "abdulbaqi-smart\\Foree\\": "src/"
+            "smartlane\\Foree\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "abdulbaqi-smart\\Foree\\Tests\\": "tests/"
+            "smartlane\\Foree\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "abdulbaqi-smart\\Foree\\ForeeServiceProvider"
+                "smartlane\\Foree\\ForeeServiceProvider"
             ],
             "aliases": {
-                "Foree": "abdulbaqi-smart\\Foree\\Facades\\Foree"
+                "Foree": "smartlane\\Foree\\Facades\\Foree"
             }
         }
     },
