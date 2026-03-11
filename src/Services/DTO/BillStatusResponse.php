@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourvendor\Foree\Services\DTO;
+namespace abdulbaqi-smart\Foree\Services\DTO;
 
 class BillStatusResponse extends ForeeResponse
 {

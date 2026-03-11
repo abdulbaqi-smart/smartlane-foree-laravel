@@ -1,13 +1,13 @@
 <?php
 
-namespace Yourvendor\Foree\Facades;
+namespace abdulbaqi-smart\Foree\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Yourvendor\Foree\Services\ForeeBillService;
+use abdulbaqi-smart\Foree\Services\ForeeBillService;
 
 /**
- * @method static \Yourvendor\Foree\Models\ForeeBill createOrGetBill(\Yourvendor\Foree\Services\DTO\CreateBillRequest $req, ?string $idempotencyExtra = null)
- * @method static \Yourvendor\Foree\Models\ForeeBill refreshStatus(\Yourvendor\Foree\Models\ForeeBill $bill)
+ * @method static \abdulbaqi-smart\Foree\Models\ForeeBill createOrGetBill(\abdulbaqi-smart\Foree\Services\DTO\CreateBillRequest $req, ?string $idempotencyExtra = null)
+ * @method static \abdulbaqi-smart\Foree\Models\ForeeBill refreshStatus(\abdulbaqi-smart\Foree\Models\ForeeBill $bill)
  *
  * @see ForeeBillService
  */

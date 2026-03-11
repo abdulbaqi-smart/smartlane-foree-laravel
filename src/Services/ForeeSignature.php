@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourvendor\Foree\Services;
+namespace abdulbaqi-smart\Foree\Services;
 
 class ForeeSignature
 {

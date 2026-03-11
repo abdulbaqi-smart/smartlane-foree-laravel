@@ -12,24 +12,24 @@ Install once, use in **any Laravel project** — no copy-pasting files.
 
 ### Option A — From GitHub (Recommended)
 
-Push this package folder to a GitHub repo (e.g. `github.com/yourvendor/foree-laravel`), then in each Laravel project:
+Push this package folder to a GitHub repo (e.g. `github.com/abdulbaqi-smart/foree-laravel`), then in each Laravel project:
 
 **1. Add repository to `composer.json`:**
 ```json
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/yourvendor/foree-laravel"
+        "url": "https://github.com/abdulbaqi-smart/foree-laravel"
     }
 ],
 "require": {
-    "yourvendor/foree-laravel": "^1.0"
+    "abdulbaqi-smart/foree-laravel": "^1.0"
 }
 ```
 
 **2. Install:**
 ```bash
-composer require yourvendor/foree-laravel
+composer require abdulbaqi-smart/foree-laravel
 ```
 
 ---
@@ -46,11 +46,11 @@ If the package is on your local machine:
     }
 ],
 "require": {
-    "yourvendor/foree-laravel": "*"
+    "abdulbaqi-smart/foree-laravel": "*"
 }
 ```
 ```bash
-composer require yourvendor/foree-laravel
+composer require abdulbaqi-smart/foree-laravel
 ```
 
 ---
@@ -59,7 +59,7 @@ composer require yourvendor/foree-laravel
 
 If you publish to [packagist.org](https://packagist.org), then simply:
 ```bash
-composer require yourvendor/foree-laravel
+composer require abdulbaqi-smart/foree-laravel
 ```
 No repository entry needed.
 
@@ -113,8 +113,8 @@ https://yourproject.com/api/webhooks/foree/bill
 
 ### Create a Bill
 ```php
-use Yourvendor\Foree\Services\DTO\CreateBillRequest;
-use Yourvendor\Foree\Services\ForeeBillService;
+use abdulbaqi-smart\Foree\Services\DTO\CreateBillRequest;
+use abdulbaqi-smart\Foree\Services\ForeeBillService;
 use Carbon\Carbon;
 
 $bill = app(ForeeBillService::class)->createOrGetBill(
@@ -139,14 +139,14 @@ $bill->qr;                      // QR code data
 
 Or using the Facade:
 ```php
-use Yourvendor\Foree\Facades\Foree;
+use abdulbaqi-smart\Foree\Facades\Foree;
 
 $bill = Foree::createOrGetBill($request, 'INV-1001');
 ```
 
 ### Check Bill Status (Manual Refresh)
 ```php
-$bill = \Yourvendor\Foree\Models\ForeeBill::find($id);
+$bill = \abdulbaqi-smart\Foree\Models\ForeeBill::find($id);
 app(ForeeBillService::class)->refreshStatus($bill);
 ```
 
@@ -164,8 +164,8 @@ new CreateBillRequest(
 
 In `app/Providers/EventServiceProvider.php`:
 ```php
-use Yourvendor\Foree\Events\ForeeBillPaid;
-use Yourvendor\Foree\Events\ForeeBillStatusUpdated;
+use abdulbaqi-smart\Foree\Events\ForeeBillPaid;
+use abdulbaqi-smart\Foree\Events\ForeeBillStatusUpdated;
 
 protected $listen = [
     ForeeBillPaid::class => [

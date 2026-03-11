@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Yourvendor\Foree\Http\Controllers\ForeeWebhookController;
+use abdulbaqi-smart\Foree\Http\Controllers\ForeeWebhookController;
 
 /*
 |--------------------------------------------------------------------------

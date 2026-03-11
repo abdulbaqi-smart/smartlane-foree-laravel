@@ -1,10 +1,10 @@
 <?php
 
-namespace Yourvendor\Foree\Events;
+namespace abdulbaqi-smart\Foree\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use Yourvendor\Foree\Models\ForeeBill;
+use abdulbaqi-smart\Foree\Models\ForeeBill;
 
 class ForeeBillPaid
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Yourvendor\Foree;
+namespace abdulbaqi-smart\Foree;
 
 use Illuminate\Support\ServiceProvider;
-use Yourvendor\Foree\Services\ForeeClient;
-use Yourvendor\Foree\Services\ForeeBillService;
+use abdulbaqi-smart\Foree\Services\ForeeClient;
+use abdulbaqi-smart\Foree\Services\ForeeBillService;
 
 class ForeeServiceProvider extends ServiceProvider
 {

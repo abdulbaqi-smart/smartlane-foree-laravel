@@ -1,13 +1,13 @@
 <?php
 
-namespace Yourvendor\Foree\Services;
+namespace abdulbaqi-smart\Foree\Services;
 
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Support\Facades\Http;
-use Yourvendor\Foree\Services\DTO\BillStatusResponse;
-use Yourvendor\Foree\Services\DTO\CreateBillRequest;
-use Yourvendor\Foree\Services\DTO\ForeeResponse;
+use abdulbaqi-smart\Foree\Services\DTO\BillStatusResponse;
+use abdulbaqi-smart\Foree\Services\DTO\CreateBillRequest;
+use abdulbaqi-smart\Foree\Services\DTO\ForeeResponse;
 
 class ForeeClient
 {
